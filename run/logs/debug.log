@@ -1,0 +1,477 @@
+[16Jan2024 13:43:30.726] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, /home/heyrynchik/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 43.3.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[16Jan2024 13:43:30.729] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Amazon.com Inc.; OS Linux arch amd64 version 6.6.7-203.fsync.fc38.x86_64
+[16Jan2024 13:43:30.751] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[16Jan2024 13:43:30.763] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[16Jan2024 13:43:30.778] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[16Jan2024 13:43:30.788] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[16Jan2024 13:43:30.797] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[16Jan2024 13:43:30.811] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[16Jan2024 13:43:30.811] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[16Jan2024 13:43:30.812] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[16Jan2024 13:43:30.813] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[16Jan2024 13:43:30.813] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[16Jan2024 13:43:30.816] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[16Jan2024 13:43:30.817] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[16Jan2024 13:43:30.817] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[16Jan2024 13:43:30.818] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[16Jan2024 13:43:30.818] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[16Jan2024 13:43:30.819] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[16Jan2024 13:43:30.821] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[16Jan2024 13:43:30.821] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[16Jan2024 13:43:30.822] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[16Jan2024 13:43:30.823] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[16Jan2024 13:43:30.824] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[16Jan2024 13:43:30.829] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[16Jan2024 13:43:30.830] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[16Jan2024 13:43:30.840] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@7ff2a664
+[16Jan2024 13:43:30.852] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/heyrynchik/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23122!/ Service=ModLauncher Env=CLIENT
+[16Jan2024 13:43:30.855] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[16Jan2024 13:43:30.855] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Jan2024 13:43:30.856] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Jan2024 13:43:30.856] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Jan2024 13:43:30.857] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Jan2024 13:43:30.857] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Jan2024 13:43:30.859] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[16Jan2024 13:43:30.860] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[16Jan2024 13:43:30.860] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[16Jan2024 13:43:30.861] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /home/heyrynchik/IdeaProjects/ModLoader/run
+[16Jan2024 13:43:30.862] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/heyrynchik/IdeaProjects/ModLoader/run
+[16Jan2024 13:43:30.862] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /home/heyrynchik/IdeaProjects/ModLoader/run/mods
+[16Jan2024 13:43:30.862] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/heyrynchik/IdeaProjects/ModLoader/run/mods
+[16Jan2024 13:43:30.862] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /home/heyrynchik/IdeaProjects/ModLoader/run/config
+[16Jan2024 13:43:30.862] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/heyrynchik/IdeaProjects/ModLoader/run/config
+[16Jan2024 13:43:30.863] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/heyrynchik/IdeaProjects/ModLoader/run/config/fml.toml
+[16Jan2024 13:43:30.863] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[16Jan2024 13:43:30.895] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /home/heyrynchik/IdeaProjects/ModLoader/run/defaultconfigs
+[16Jan2024 13:43:30.895] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[16Jan2024 13:43:30.898] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[16Jan2024 13:43:30.899] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[16Jan2024 13:43:30.915] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.3.7, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+[16Jan2024 13:43:30.917] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[16Jan2024 13:43:30.918] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[16Jan2024 13:43:30.919] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[16Jan2024 13:43:30.919] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[16Jan2024 13:43:30.920] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[16Jan2024 13:43:30.921] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[16Jan2024 13:43:30.921] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[16Jan2024 13:43:30.921] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[16Jan2024 13:43:30.931] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[16Jan2024 13:43:30.934] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[16Jan2024 13:43:30.934] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[16Jan2024 13:43:30.938] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates modloader%%/home/heyrynchik/IdeaProjects/ModLoader/build/resources/main:modloader%%/home/heyrynchik/IdeaProjects/ModLoader/build/classes/java/main from env
+[16Jan2024 13:43:30.940] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{modloader=[/home/heyrynchik/IdeaProjects/ModLoader/build/resources/main, /home/heyrynchik/IdeaProjects/ModLoader/build/classes/java/main]}]
+[16Jan2024 13:43:31.121] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.3.7_mapped_official_1.19.2.jar with {minecraft} mods - versions {1.19.2}
+[16Jan2024 13:43:31.123] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.2-43.3.7/2768830b2246afc11e45c435d5f7bdcb9ab4431/javafmllanguage-1.19.2-43.3.7.jar
+[16Jan2024 13:43:31.124] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.2-43.3.7/2768830b2246afc11e45c435d5f7bdcb9ab4431/javafmllanguage-1.19.2-43.3.7.jar is missing mods.toml file
+[16Jan2024 13:43:31.125] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.2-43.3.7/64fbd736a2de399db2565b8ae1a94b1d211c6fb7/lowcodelanguage-1.19.2-43.3.7.jar
+[16Jan2024 13:43:31.125] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.2-43.3.7/64fbd736a2de399db2565b8ae1a94b1d211c6fb7/lowcodelanguage-1.19.2-43.3.7.jar is missing mods.toml file
+[16Jan2024 13:43:31.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.2-43.3.7/ce411f6d96831ebc36f6e17ace0fcee3a4ca462a/mclanguage-1.19.2-43.3.7.jar
+[16Jan2024 13:43:31.127] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.2-43.3.7/ce411f6d96831ebc36f6e17ace0fcee3a4ca462a/mclanguage-1.19.2-43.3.7.jar is missing mods.toml file
+[16Jan2024 13:43:31.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.2-43.3.7/92c74233945e6893544a2e2b6694252250bb3db4/fmlcore-1.19.2-43.3.7.jar
+[16Jan2024 13:43:31.129] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/heyrynchik/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.2-43.3.7/92c74233945e6893544a2e2b6694252250bb3db4/fmlcore-1.19.2-43.3.7.jar is missing mods.toml file
+[16Jan2024 13:43:31.131] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/heyrynchik/IdeaProjects/ModLoader/build/resources/main
+[16Jan2024 13:43:31.138] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {modloader} mods - versions {1.0-SNAPSHOT}
+[16Jan2024 13:43:31.142] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[16Jan2024 13:43:31.145] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.3.7}
+[16Jan2024 13:43:31.166] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.19.2-43.3.7_mapped_official_1.19.2.jar, it does not contain dependency information.
+[16Jan2024 13:43:31.167] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from , it does not contain dependency information.
+[16Jan2024 13:43:31.167] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from main, it does not contain dependency information.
+[16Jan2024 13:43:31.168] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.19.2-43.3.7.jar, it does not contain dependency information.
+[16Jan2024 13:43:31.168] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.19.2-43.3.7.jar, it does not contain dependency information.
+[16Jan2024 13:43:31.168] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.19.2-43.3.7.jar, it does not contain dependency information.
+[16Jan2024 13:43:31.168] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.19.2-43.3.7.jar, it does not contain dependency information.
+[16Jan2024 13:43:31.199] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[16Jan2024 13:43:31.202] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.3.7_mapped_official_1.19.2.jar with {minecraft} mods - versions {1.19.2}
+[16Jan2024 13:43:31.206] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/heyrynchik/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.3.7_mapped_official_1.19.2/forge-1.19.2-43.3.7_mapped_official_1.19.2.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[16Jan2024 13:43:31.207] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[16Jan2024 13:43:31.208] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.3.7}
+[16Jan2024 13:43:31.209] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[16Jan2024 13:43:31.243] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[16Jan2024 13:43:31.244] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[16Jan2024 13:43:31.244] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[16Jan2024 13:43:31.244] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[16Jan2024 13:43:31.245] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[16Jan2024 13:43:31.245] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[16Jan2024 13:43:31.245] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/heyrynchik/IdeaProjects/ModLoader/build/resources/main
+[16Jan2024 13:43:31.246] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {modloader} mods - versions {1.0-SNAPSHOT}
+[16Jan2024 13:43:31.247] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/heyrynchik/IdeaProjects/ModLoader/build/resources/main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[16Jan2024 13:43:31.248] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[16Jan2024 13:43:31.259] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[16Jan2024 13:43:31.260] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[16Jan2024 13:43:31.261] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
+[16Jan2024 13:43:31.261] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
+[16Jan2024 13:43:31.267] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[16Jan2024 13:43:31.267] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[16Jan2024 13:43:31.267] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[16Jan2024 13:43:31.269] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[16Jan2024 13:43:31.271] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[16Jan2024 13:43:31.614] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 30289 method mappings from methods.csv
+[16Jan2024 13:43:31.641] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28897 field mappings from fields.csv
+[16Jan2024 13:43:31.690] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[16Jan2024 13:43:31.691] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[16Jan2024 13:43:31.692] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[16Jan2024 13:43:31.692] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[16Jan2024 13:43:31.692] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[16Jan2024 13:43:31.693] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[16Jan2024 13:43:31.831] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[16Jan2024 13:43:31.832] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[16Jan2024 13:43:31.883] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[16Jan2024 13:43:31.883] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[16Jan2024 13:43:31.915] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[16Jan2024 13:43:31.926] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@36c2b646 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[16Jan2024 13:43:31.928] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@74ecacc3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[16Jan2024 13:43:31.928] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@517a2b0 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[16Jan2024 13:43:31.929] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@53b7ce6 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[16Jan2024 13:43:31.929] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@36480b2d to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[16Jan2024 13:43:31.929] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@27d33393 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[16Jan2024 13:43:31.929] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1f6917fb to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[16Jan2024 13:43:31.929] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@41eb94bc to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[16Jan2024 13:43:31.930] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@378cfecf to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[16Jan2024 13:43:31.930] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[16Jan2024 13:43:32.154] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[16Jan2024 13:43:32.154] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[16Jan2024 13:43:32.155] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[16Jan2024 13:43:32.155] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[16Jan2024 13:43:32.155] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[16Jan2024 13:43:32.155] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[16Jan2024 13:43:32.155] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[16Jan2024 13:43:32.155] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[16Jan2024 13:43:32.156] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[16Jan2024 13:43:32.156] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[16Jan2024 13:43:32.156] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[16Jan2024 13:43:32.156] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[16Jan2024 13:43:32.156] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[16Jan2024 13:43:32.156] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[16Jan2024 13:43:32.156] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(modloader)
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(modloader)
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(modloader)
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(modloader)
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(modloader)
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(modloader)]
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[16Jan2024 13:43:32.157] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[16Jan2024 13:43:32.158] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(modloader)]
+[16Jan2024 13:43:32.158] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/heyrynchik/.gradle/caches/forge_gradle/assets, --assetIndex, 1.19]
+[16Jan2024 13:43:32.195] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[16Jan2024 13:43:32.198] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[16Jan2024 13:43:32.225] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[16Jan2024 13:43:32.228] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[16Jan2024 13:43:32.228] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[16Jan2024 13:43:32.393] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@2f897dab
+[16Jan2024 13:43:32.407] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[16Jan2024 13:43:32.409] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[16Jan2024 13:43:32.423] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@2f897dab
+[16Jan2024 13:43:32.480] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[16Jan2024 13:43:32.482] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[16Jan2024 13:43:32.761] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[16Jan2024 13:43:32.858] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[16Jan2024 13:43:32.891] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[16Jan2024 13:43:32.969] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[16Jan2024 13:43:33.542] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[16Jan2024 13:43:34.554] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[16Jan2024 13:43:35.209] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[16Jan2024 13:43:35.526] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[16Jan2024 13:43:35.609] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[16Jan2024 13:43:36.175] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/heyrynchik/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.3.7_mapped_official_1.19.2/forge-1.19.2-43.3.7_mapped_official_1.19.2.jar%23186!/assets/.mcassetsroot' uses unexpected schema
+[16Jan2024 13:43:36.175] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/heyrynchik/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.3.7_mapped_official_1.19.2/forge-1.19.2-43.3.7_mapped_official_1.19.2.jar%23186!/data/.mcassetsroot' uses unexpected schema
+[16Jan2024 13:43:36.187] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Jan2024 13:43:36.191] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[16Jan2024 13:43:36.290] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[16Jan2024 13:43:36.594] [Render thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[16Jan2024 13:43:36.595] [Render thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[16Jan2024 13:43:36.668] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5642
+[16Jan2024 13:43:36.689] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[16Jan2024 13:43:36.697] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@2f897dab - got cpw.mods.cl.ModuleClassLoader@5f8890c2
+[16Jan2024 13:43:36.697] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[16Jan2024 13:43:36.704] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@2f897dab - got cpw.mods.cl.ModuleClassLoader@5f8890c2
+[16Jan2024 13:43:36.704] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.heyrynchik.modloader
+[16Jan2024 13:43:36.723] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for modloader
+[16Jan2024 13:43:36.738] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 43.3 from cpw.mods.modlauncher.TransformingClassLoader@2f897dab
+[16Jan2024 13:43:36.739] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 43.3.7
+[16Jan2024 13:43:36.739] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 43.3
+[16Jan2024 13:43:36.739] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[16Jan2024 13:43:36.740] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@2f897dab
+[16Jan2024 13:43:36.740] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19.2
+[16Jan2024 13:43:36.740] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220805.130853
+[16Jan2024 13:43:36.740] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.7, for MC 1.19.2 with MCP 20220805.130853
+[16Jan2024 13:43:36.742] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.7 Initialized
+[16Jan2024 13:43:36.793] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[16Jan2024 13:43:36.794] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[16Jan2024 13:43:36.794] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[16Jan2024 13:43:36.795] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[16Jan2024 13:43:36.795] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[16Jan2024 13:43:36.796] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[16Jan2024 13:43:36.796] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.3.7_mapped_official_1.19.2.jar%23185%23192!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:436) ~[forge-1.19.2-43.3.7_mapped_official_1.19.2.jar%23185%23192!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.3.7.jar%23187!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.3.7.jar%23190!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[16Jan2024 13:43:36.798] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[16Jan2024 13:43:36.799] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23144!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.3.7_mapped_official_1.19.2.jar%23185%23192!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:436) ~[forge-1.19.2-43.3.7_mapped_official_1.19.2.jar%23185%23192!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.3.7.jar%23187!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.3.7.jar%23190!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[16Jan2024 13:43:36.800] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[16Jan2024 13:43:36.800] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[16Jan2024 13:43:36.801] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4137680896 bytes (maybe)
+[16Jan2024 13:43:36.801] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[16Jan2024 13:43:36.801] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[16Jan2024 13:43:36.802] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[16Jan2024 13:43:36.802] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[16Jan2024 13:43:36.803] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[16Jan2024 13:43:36.803] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[16Jan2024 13:43:36.825] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[16Jan2024 13:43:36.853] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[16Jan2024 13:43:36.854] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[16Jan2024 13:43:36.854] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[16Jan2024 13:43:36.879] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[16Jan2024 13:43:36.881] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[16Jan2024 13:43:36.883] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[16Jan2024 13:43:36.887] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
+[16Jan2024 13:43:36.889] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[16Jan2024 13:43:36.896] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
+[16Jan2024 13:43:36.939] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[16Jan2024 13:43:36.940] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[16Jan2024 13:43:36.941] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[16Jan2024 13:43:36.941] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[16Jan2024 13:43:37.171] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[16Jan2024 13:43:37.171] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:modloader for mod file /home/heyrynchik/IdeaProjects/ModLoader/build/resources/main
+[16Jan2024 13:43:37.744] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [modloader]
+[16Jan2024 13:43:37.877] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[16Jan2024 13:43:37.899] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[16Jan2024 13:43:37.901] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /home/heyrynchik/IdeaProjects/ModLoader/run/config/forge-client.toml
+[16Jan2024 13:43:37.902] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /home/heyrynchik/IdeaProjects/ModLoader/run/config/forge-client.toml
+[16Jan2024 13:43:37.902] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /home/heyrynchik/IdeaProjects/ModLoader/run/config/forge-client.toml for changes
+[16Jan2024 13:43:37.905] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[16Jan2024 13:43:37.905] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[16Jan2024 13:43:37.906] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /home/heyrynchik/IdeaProjects/ModLoader/run/config/forge-common.toml
+[16Jan2024 13:43:37.905] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
+[16Jan2024 13:43:37.906] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[16Jan2024 13:43:37.906] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /home/heyrynchik/IdeaProjects/ModLoader/run/config/forge-common.toml
+[16Jan2024 13:43:37.907] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /home/heyrynchik/IdeaProjects/ModLoader/run/config/forge-common.toml for changes
+[16Jan2024 13:43:37.907] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[16Jan2024 13:43:37.907] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
+[16Jan2024 13:43:37.908] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[16Jan2024 13:43:37.908] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
+[16Jan2024 13:43:37.908] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[16Jan2024 13:43:37.909] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
+[16Jan2024 13:43:37.909] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[16Jan2024 13:43:38.054] [Worker-Main-11/INFO] [modloader/]: modloader Has started
+[16Jan2024 13:43:38.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Jan2024 13:43:38.306] [Worker-Main-11/INFO] [org.mongodb.driver.client/]: MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.11.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "6.6.7-203.fsync.fc38.x86_64"}, "platform": "Java/Amazon.com Inc./17.0.9+8-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='user', source='admin', password=<hidden>, mechanismProperties=<hidden>}, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@200050c3, com.mongodb.Jep395RecordCodecProvider@68701673, com.mongodb.KotlinCodecProvider@26a4062]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=modloadermods.zngqw2d.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-10ghvo-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+[16Jan2024 13:43:38.343] [Worker-Main-11/INFO] [org.mongodb.driver.cluster/]: No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, serverDescriptions=[]}. Waiting for 30000 ms before timing out
+[16Jan2024 13:43:38.437] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-srv-modloadermods.zngqw2d.mongodb.net/INFO] [org.mongodb.driver.cluster/]: Adding discovered server ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017 to client view of cluster
+[16Jan2024 13:43:38.450] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-srv-modloadermods.zngqw2d.mongodb.net/DEBUG] [org.mongodb.driver.connection/]: Connection pool created for ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017 using options maxIdleTimeMS=0, minPoolSize=0, maxPoolSize=100, maxConnecting=2, waitQueueTimeoutMS=120000
+[16Jan2024 13:43:38.458] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-srv-modloadermods.zngqw2d.mongodb.net/INFO] [org.mongodb.driver.cluster/]: Adding discovered server ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017 to client view of cluster
+[16Jan2024 13:43:38.460] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-srv-modloadermods.zngqw2d.mongodb.net/DEBUG] [org.mongodb.driver.connection/]: Connection pool created for ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017 using options maxIdleTimeMS=0, minPoolSize=0, maxPoolSize=100, maxConnecting=2, waitQueueTimeoutMS=120000
+[16Jan2024 13:43:38.460] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-srv-modloadermods.zngqw2d.mongodb.net/INFO] [org.mongodb.driver.cluster/]: Adding discovered server ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017 to client view of cluster
+[16Jan2024 13:43:38.462] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-srv-modloadermods.zngqw2d.mongodb.net/DEBUG] [org.mongodb.driver.connection/]: Connection pool created for ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017 using options maxIdleTimeMS=0, minPoolSize=0, maxPoolSize=100, maxConnecting=2, waitQueueTimeoutMS=120000
+[16Jan2024 13:43:38.463] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-srv-modloadermods.zngqw2d.mongodb.net/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+[16Jan2024 13:43:38.832] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.41",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.2.0",
+    "1.18.2-latest": "40.2.17",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.3.0",
+    "1.19.2-latest": "43.3.7",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.2.0",
+    "1.19.4-latest": "45.2.8",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.2.0",
+    "1.20.1-latest": "47.2.20",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.0.19"
+  }
+}
+[16Jan2024 13:43:38.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.3.7 Target: null
+[16Jan2024 13:43:38.852] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/INFO] [org.mongodb.driver.cluster/]: Monitor thread successfully connected to server with description ServerDescription{address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=177606096, setName='atlas-10ghvo-shard-0', canonicalAddress=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, hosts=[ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017], passives=[], arbiters=[], primary='ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=2, topologyVersion=TopologyVersion{processId=659c1086239981beef335584, counter=9}, lastWriteDate=Tue Jan 16 13:43:38 EET 2024, lastUpdateTimeNanos=10133128267917}
+[16Jan2024 13:43:38.852] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/INFO] [org.mongodb.driver.cluster/]: Monitor thread successfully connected to server with description ServerDescription{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=178583735, setName='atlas-10ghvo-shard-0', canonicalAddress=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, hosts=[ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017], passives=[], arbiters=[], primary='ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000002, setVersion=2, topologyVersion=TopologyVersion{processId=659c1091a00496eec868bf72, counter=8}, lastWriteDate=Tue Jan 16 13:43:38 EET 2024, lastUpdateTimeNanos=10133128049649}
+[16Jan2024 13:43:38.854] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.connection/]: Connection pool ready for ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:38.856] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=177.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+[16Jan2024 13:43:38.857] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:38.857] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.connection/]: Connection pool ready for ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:38.857] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/INFO] [org.mongodb.driver.cluster/]: Monitor thread successfully connected to server with description ServerDescription{address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=198255775, setName='atlas-10ghvo-shard-0', canonicalAddress=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, hosts=[ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017], passives=[], arbiters=[], primary='ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=2, topologyVersion=TopologyVersion{processId=659c108db83f1c1200fb0376, counter=6}, lastWriteDate=Tue Jan 16 13:43:38 EET 2024, lastUpdateTimeNanos=10133147617090}
+[16Jan2024 13:43:38.858] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/INFO] [org.mongodb.driver.cluster/]: Discovered replica set primary ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017 with max election id 7fffffff0000000000000002 and max set version 2
+[16Jan2024 13:43:38.858] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=178.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=177.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]
+[16Jan2024 13:43:38.858] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:38.858] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.connection/]: Connection pool ready for ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:38.859] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=178.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=177.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=198.3 ms, state=CONNECTED}]
+[16Jan2024 13:43:38.860] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:38.861] [Worker-Main-11/DEBUG] [org.mongodb.driver.connection/]: Checkout started for connection to ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:38.865] [Worker-Main-11/DEBUG] [org.mongodb.driver.connection/]: Connection created: address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, driver-generated ID=7
+[16Jan2024 13:43:39.156] [Worker-Main-11/DEBUG] [org.mongodb.driver.connection/]: Connection ready: address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, driver-generated ID=7, established in=289 ms
+[16Jan2024 13:43:39.156] [Worker-Main-11/DEBUG] [org.mongodb.driver.connection/]: Connection checked out: address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, driver-generated ID=7, duration=294 ms
+[16Jan2024 13:43:39.166] [Worker-Main-11/DEBUG] [org.mongodb.driver.protocol.command/]: Command "find" started on database "ModLists" using a connection with driver-generated ID 7 and server-generated ID 148933 to ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017. The request ID is 13 and the operation ID is 1. Command: {"find": "modlist", "filter": {"title": "modlist"}, "limit": 1, "singleBatch": true, "$db": "ModLists", "lsid": {"id": {"$binary": {"base64": "HVNG+DacQSW6RL9EYfOr+w==", "subType": "04"}}}}
+[16Jan2024 13:43:39.220] [Worker-Main-11/DEBUG] [org.mongodb.driver.protocol.command/]: Command "find" succeeded on database "ModLists" in 53.043712 ms using a connection with driver-generated ID 7 and server-generated ID 148933 to ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017. The request ID is 13 and the operation ID is 1. Command reply: {"cursor": {"firstBatch": [{"_id": null, "title": "modlist", "mods": [{"defaultModTitle": "https://9lifehack.com/download?dl=https://www.curseforge.com/minecraft/mc-mods/redstone-flux/files&filename=Redstone%20Flux%201.19.2&version=1.19.2&download_count=4375&created_at=14/01/2024%2017:15:55"}]}], "id": 0, "ns": "ModLists.modlist"}, "ok": 1.0, "$clusterTime": {"clusterTime": {"$timestamp": {"t": 1705405419, "i": 1}}, "signature": {"hash": {"$binary": {"base64": "Ziabzc1fG/NKG2NRagYcUwSJK3w=", "subType": "00"}}, "keyId": 7321745343513624581}}, "operationTime": {"$timestamp": {"t": 1705405419, "i": 1}}}
+[16Jan2024 13:43:39.222] [Worker-Main-11/DEBUG] [org.mongodb.driver.operation/]: Received batch of 1 documents with cursorId 0 from server ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:39.224] [Worker-Main-11/DEBUG] [org.mongodb.driver.connection/]: Connection checked in: address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, driver-generated ID=7
+[16Jan2024 13:43:40.971] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5875
+[16Jan2024 13:43:40.992] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[16Jan2024 13:43:40.992] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[16Jan2024 13:43:41.028] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Family 17h/19h HD Audio Controller Analog Stereo
+[16Jan2024 13:43:41.029] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[16Jan2024 13:43:41.203] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[16Jan2024 13:43:41.209] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16Jan2024 13:43:41.211] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16Jan2024 13:43:41.212] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16Jan2024 13:43:41.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16Jan2024 13:43:41.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16Jan2024 13:43:41.214] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16Jan2024 13:43:41.813] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[16Jan2024 13:43:41.886] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16Jan2024 13:43:41.888] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16Jan2024 13:43:41.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16Jan2024 13:43:42.278] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[16Jan2024 13:43:48.915] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=178.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=177.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=167.4 ms, state=CONNECTED}]
+[16Jan2024 13:43:48.915] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:48.916] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=177.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=167.4 ms, state=CONNECTED}]
+[16Jan2024 13:43:48.916] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:48.953] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=167.4 ms, state=CONNECTED}]
+[16Jan2024 13:43:48.953] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:58.926] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=167.4 ms, state=CONNECTED}]
+[16Jan2024 13:43:58.926] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:58.927] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=167.4 ms, state=CONNECTED}]
+[16Jan2024 13:43:58.928] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:43:58.959] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=167.4 ms, state=CONNECTED}]
+[16Jan2024 13:43:58.959] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017
+[16Jan2024 13:44:08.924] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=150.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=143.4 ms, state=CONNECTED}]
+[16Jan2024 13:44:08.924] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017
+[16Jan2024 13:44:08.938] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.8 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=143.4 ms, state=CONNECTED}]
+[16Jan2024 13:44:08.938] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:44:08.959] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.8 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=143.4 ms, state=CONNECTED}]
+[16Jan2024 13:44:08.959] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017
+[16Jan2024 13:44:18.926] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.8 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=132.0 ms, state=CONNECTED}]
+[16Jan2024 13:44:18.926] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017
+[16Jan2024 13:44:18.943] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=113.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=129.6 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=132.0 ms, state=CONNECTED}]
+[16Jan2024 13:44:18.943] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017
+[16Jan2024 13:44:18.968] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Updating cluster description to  {type=REPLICA_SET, servers=[{address=ac-lylttqy-shard-00-02.zngqw2d.mongodb.net:27017, type=REPLICA_SET_PRIMARY, TagSet{[Tag{name='availabilityZone', value='eun1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=113.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=113.0 ms, state=CONNECTED}, {address=ac-lylttqy-shard-00-01.zngqw2d.mongodb.net:27017, type=REPLICA_SET_SECONDARY, TagSet{[Tag{name='availabilityZone', value='eun1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_NORTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, roundTripTime=132.0 ms, state=CONNECTED}]
+[16Jan2024 13:44:18.968] [cluster-ClusterId{value='65a66bea7b7725489e77f473', description='null'}-ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017/DEBUG] [org.mongodb.driver.cluster/]: Checking status of ac-lylttqy-shard-00-00.zngqw2d.mongodb.net:27017
