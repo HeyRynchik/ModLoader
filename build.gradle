@@ -1,6 +1,8 @@
 plugins {
     id 'eclipse'
     id 'idea'
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
 }
 jarJar.enable()
@@ -143,17 +145,36 @@ dependencies {
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
 
 
-    minecraftLibrary('org.mongodb:mongodb-driver-sync:4.11.1')
+    shadow('org.mongodb:mongodb-driver-sync:4.11.1') {
+        transitive = false
+    }
+    shadow('org.mongodb:mongodb-driver-core:4.11.1') {
+        transitive = false
+    }
+    shadow('org.mongodb:bson:4.11.1') {
+        transitive = false
+    }
 
-    jarJar(group: 'org.mongodb', name: 'mongodb-driver-sync', version: '[4.11.1]')
+//    implementation('org.mongodb:mongodb-driver-sync:4.11.1')
 
-
-    testImplementation(platform('org.junit:junit-bom:5.10.1'))
-    testImplementation('org.junit.jupiter:junit-jupiter')
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+}
+shadowJar {
+    relocate 'org.mongodb.mongodb-driver-sync', 'com.heyrynchik.mongodb-driver-sync'
+    dependencies {
+        exclude(dependency {
+            it.moduleGroup == 'io.netty'
+        })
+        exclude(dependency {
+            it.moduleGroup == 'org.apache.logging.log4j'
+        })
+        exclude(dependency {
+            it.moduleGroup == 'org.objectweb.asm'
+        })
+    }
 }
 
 
